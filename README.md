@@ -1,18 +1,26 @@
 This is a simple Redis-like implementation using python
 
-Support the following commands:
-get <key>
-set <key>
-delete <key>
-mget <key1><key2>.....<keyn>
-mset <key1><value1><key2><value2>.....<keyn><valuen>
-flush
+Support the following commands:<br/>
+get(key)<br/>
+set(key)<br/>
+delete(key)<br/>
+mget(key1,key2,.....,keyn)<br/>
+mset(key1,value1,key2,value2,.....keyn,valuen)<br/>
+flush<br/>
+
+
+
+To start the project, first run:<br/>
+open one terminal, run: python runServer.py<br/>
+open another termial, run python runClient.py<br/>
+
+
 
 Due to constrain of time, it support string and int only
 
 prequisite to this implementation including the following libraries:
-socket,
-support python3.+ version
+socket,<br/>
+support python3.+ version<br/>
 
 
 This is how this implementation works:
