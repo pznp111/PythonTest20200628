@@ -1,12 +1,12 @@
 This is a simple Redis-like implementation using python
 
 Support the following commands:<br/>
-get(key)<br/>
-set(key)<br/>
-delete(key)<br/>
-mget(key1,key2,.....,keyn)<br/>
-mset(key1,value1,key2,value2,.....keyn,valuen)<br/>
-flush<br/>
+get(key)   to get value by key<br/>
+set(key)   to save key value pair<br/>
+delete(key)   to delete value by key<br/>
+mget(key1,key2,.....,keyn)   get multiple value by keys<br/>
+mset(key1,value1,key2,value2,.....keyn,valuen)   set multiple value by keys<br/>
+flush()   delete all<br/>
 
 
 
